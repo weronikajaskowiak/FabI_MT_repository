@@ -7,7 +7,7 @@ BIN_WIDTH = 0.5
 TARGET_TOTAL = 150000
 RANDOM_STATE = 2025
 
-input_file = "/home/agkronenberger/Documents/Gabriel/lumi/new_2026/0_datasets/1_Glide/1_EnamineROC/7UMW_EnamineROC.csv"
+input_file = "7UMW_EnamineROC.csv"
 output_file = input_file.replace(".csv", "_balanced.csv")
 info_file = output_file.replace(".csv", "_info.csv")
 bin_info_file = output_file.replace(".csv", "_bin_stats.csv")
