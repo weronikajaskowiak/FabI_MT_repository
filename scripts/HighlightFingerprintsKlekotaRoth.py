@@ -69,9 +69,9 @@ def highlight_based_on_bits(
         highlight_based_on_bits(
             molecules=["CC(O)C(=O)O"],
             smarts_patterns={
-                "Hydroxyl": "[OX2H]",
-                "Alcohol_fragment": "[CX4][OX2H]",
-                "Carbonyl": "C=O"
+                1: "[OX2H]",
+                2: "[CX4][OX2H]",
+                3: "C=O"
             },
             list_of_active_bits=[0],
             list_of_inactive_bits=[1],
